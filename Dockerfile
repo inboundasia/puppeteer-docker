@@ -1,4 +1,4 @@
-FROM node:14.16.1
+FROM node:16.18.0-alpine
 
 RUN  apt-get update \
      # Install latest chrome dev package, which installs the necessary libs to
