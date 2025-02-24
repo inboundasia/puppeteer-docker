@@ -1,4 +1,4 @@
-FROM node:16.18.0-slim
+FROM node:18-slim
 
 RUN  apt-get update \
      # Install latest chrome dev package, which installs the necessary libs to
